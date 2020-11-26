@@ -23,7 +23,7 @@ export class navbar extends Component {
           <div class="menu-container">
             <div class="menu"></div>
             <div class="links">
-              <a href="/">Home</a>
+              <a href="/">me</a>
               <a href="/Courses">Courses</a>
               <a href="/MeetUs">Meet Us</a>
               <a href="/Contacts">Contacts</a>

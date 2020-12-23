@@ -3,9 +3,9 @@ import React, { Component } from "react";
 export class home extends Component {
   render() {
     return (
-      <div>
+      <div className="theHomePage">
         <div className="topColorHome">
-          <div style={{ color: "white", textAlign: "center" }}>
+          {/* <div style={{ color: "white", textAlign: "center" }}>
             <h1>
               <span>
                 <i className="fa fa-xing"></i>
@@ -13,7 +13,7 @@ export class home extends Component {
               <br />
               CODE<span style={{ color: "red" }}>SPIRE</span>
             </h1>
-          </div>
+          </div> */}
 
           <br />
           <div>
@@ -230,19 +230,3 @@ export class home extends Component {
 }
 
 export default home;
-
-const teacher = {
-  textAlign: "center",
-  border: "none",
-  width: "800px",
-  margin: "30px",
-  background: "cyan",
-  borderRadius: "40px",
-  height: "550px",
-  padding: "30px 80px",
-  boxShadow: "5px 5px 20px",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  flexDirection: "column",
-};

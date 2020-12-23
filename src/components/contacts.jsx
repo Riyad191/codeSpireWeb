@@ -38,7 +38,7 @@ export class contacts extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="theContactPage">
         <div
           style={{
             color: "white",

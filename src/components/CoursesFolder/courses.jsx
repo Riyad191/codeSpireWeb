@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import Java from "./java";
-import Python from "./python";
-import MERN from "./mern";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import "./courses.css";
+
 import axios from "axios";
 
 export class title extends Component {
@@ -51,48 +49,7 @@ export class title extends Component {
   };
   render() {
     return (
-      // <Router>
       <div className="theCoursesPage">
-        <div className="topColor">
-          <h1>
-            <span>
-              <i className="fa fa-xing"></i>
-            </span>
-            <br />
-
-            <span>CODE</span>
-            <span style={{ color: "red" }}>SPIRE</span>
-          </h1>
-          <br />
-          <br />
-          <br />
-
-          <div className="coursesTitle">
-            <span style={{ color: "red" }}>C</span>
-            <span style={{ color: "red" }}>O</span>
-            <span style={{ color: "red" }}>U</span>
-            <span style={{ color: "white" }}>R</span>
-            <span style={{ color: "white" }}>S</span>
-            <span style={{ color: "white" }}>E</span>
-            <span style={{ color: "white" }}>S</span>
-            <br />
-
-            <span className="coursesTitleSpan">&</span>
-
-            <br />
-            <span style={{ color: "white" }}>E</span>
-            <span style={{ color: "white" }}>N</span>
-            <span style={{ color: "white" }}>R</span>
-            <span style={{ color: "white" }}>O</span>
-            <span style={{ color: "white" }}>L</span>
-            <span style={{ color: "white" }}>L</span>
-            <span style={{ color: "red" }}>M</span>
-            <span style={{ color: "red" }}>E</span>
-            <span style={{ color: "red" }}>N</span>
-            <span style={{ color: "red" }}>T</span>
-          </div>
-        </div>
-
         <div style={{ background: "white" }}>
           <div>
             <div
@@ -103,22 +60,18 @@ export class title extends Component {
               }}
             ></div>
             <div className="gradientLine">
-              <div>
-                <span style={{ color: "darkGreen" }}>
-                  <i className="fa fa-xing"></i>
-                </span>
-                <div>
-                  <span style={{ color: "darkGreen" }}>CODE</span>
-                  <span style={{ color: "red" }}>SPIRE</span>
-                </div>
-              </div>
+              <span style={{ color: "black" }}>Courses </span>
+              <span style={{ color: "rgb(255, 145, 0)", margin: "0px 20px" }}>
+                &
+              </span>
+
+              <span style={{ color: "red" }}> Eenrollment</span>
             </div>
 
             <div
               style={{
                 height: 40,
-                background:
-                  "linear-gradient(rgb(7, 56, 24),rgba(255, 255, 255, 0.157))",
+                background: "linear-gradient(black,rgba(255, 255, 255, 0.157))",
                 textAlign: "center",
               }}
             ></div>
@@ -297,59 +250,7 @@ export class title extends Component {
           <br />
 
           {/* ---------------------------------------------------------------------------- */}
-          <div id="icons">
-            <div className="effect laertes" style={{ width: "80%" }}>
-              <div
-                style={{
-                  textAlign: "center",
-                  fontSize: 30,
-                }}
-              >
-                <span style={{ color: "darkGreen" }}>
-                  <i className="fa fa-xing"></i>
-                </span>
-                <div>
-                  <span style={{ color: "darkGreen" }}>CODE</span>
-                  <span style={{ color: "red" }}>SPIRE</span>
-                </div>
-              </div>
-              <div className="greenBorder">
-                <div className="redBorder">
-                  <br />
-                  <h4 className="information">
-                    Copyright © 2017-2020 CodeSpire, LLC. All rights reserved.
-                  </h4>
-                  <div className="buttons">
-                    <a href="#" className="fb" title="Join us on Facebook">
-                      <i className="fa fa-facebook" aria-hidden="true"></i>
-                    </a>
-                    <a href="#" className="tw" title="Join us on Twitter">
-                      <i className="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-                    <a href="#" className="g-plus" title="Join us on Google+">
-                      <i className="fa fa-google-plus" aria-hidden="true"></i>
-                    </a>
-
-                    <a href="#" className="insta" title="Join us on Instagram">
-                      <i className="fa fa-instagram" aria-hidden="true"></i>
-                    </a>
-                    <a href="#" className="in" title="Join us on Linked In">
-                      <i className="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <br />
-          <br />
         </div>
-        {/* <Switch>
-            <Route path="/Java" component={Java} />
-            <Route path="/Python" component={Python} />
-            <Route path="/MERN" component={MERN} />
-          </Switch> */}
-        {/* </Router> */}
       </div>
     );
   }

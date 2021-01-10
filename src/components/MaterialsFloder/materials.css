@@ -1,0 +1,274 @@
+/* ---------------------------------MATERIALS PAGES--------------------------------- */
+.topColor {
+  background: black;
+  background: rgb(0, 87, 99);
+  padding-top: 80px;
+  color: rgb(255, 145, 0);
+  /* color: red; */
+  background: linear-gradient(
+    55deg,
+    rgb(0, 61, 61) 25%,
+    rgb(255, 235, 198) 25%,
+    rgb(255, 235, 198) 50%,
+    rgb(0, 61, 61) 50%,
+    rgb(0, 61, 61) 75%,
+    rgb(255, 235, 198) 75%,
+    rgb(255, 235, 198) 100%,
+    rgb(0, 61, 61) 100%
+  );
+  /* background-image: url("./img/react.PNG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+/* .scrollUp {
+  font-size: 26px;
+  color: red;
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  cursor: pointer;
+  background: rgb(255, 220, 167);
+  padding: 7px 10px;
+  border-radius: 10px;
+} */
+
+.planFlex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  /* width: 100%; */
+}
+@media (max-width: 1000px) {
+  .planFlex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.textColor {
+  font-size: 200px;
+  color: rgb(255, 145, 0);
+  /* color: red; */
+}
+.dataAnalytics {
+  font-size: 180px;
+}
+@media (max-width: 1000px) {
+  .dataAnalytics {
+    font-size: 60px;
+  }
+}
+@media (max-width: 1000px) {
+  .MERN {
+    font-size: 100px;
+  }
+}
+.materialInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#backGroundImgs {
+  border: none;
+  margin: 90px 60px;
+  height: 2100px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 20px;
+}
+
+@media (max-width: 1000px) {
+  #backGroundImgs {
+    border: none;
+    margin: 90px 60px;
+    height: 3100px;
+    box-shadow: 0px 0px 0px;
+  }
+}
+
+#img {
+  height: 300px;
+  margin: 100px 1500px 0 180px;
+}
+@media (max-width: 1000px) {
+  #img {
+    height: 150px;
+    margin: 0px;
+  }
+}
+
+.plan {
+  border: none;
+  margin: 25px 50px;
+  padding: 30px;
+  height: 870px;
+  width: 650px;
+  border-radius: 40px;
+  font-size: 22px;
+  box-shadow: 5px 5px 20px;
+}
+@media (max-width: 1000px) {
+  .plan {
+    border: none;
+    margin: 25px 50px;
+    padding: 30px;
+    height: 870px;
+    width: 250px;
+    border-radius: 40px;
+    font-size: 15px;
+    box-shadow: 5px 5px 20px;
+  }
+}
+.generalInfo {
+  text-align: center;
+  margin-top: 30px;
+}
+@media (max-width: 1000px) {
+  .generalInfo {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+  }
+}
+.courseOutline {
+  text-align: center;
+  margin-top: 30px;
+}
+@media (max-width: 1000px) {
+  .courseOutline {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+    margin-right: 30px;
+  }
+}
+.planUL {
+  text-align: left;
+  line-height: 1.6;
+  margin-top: 60px;
+}
+@media (max-width: 1000px) {
+  .planUL {
+    text-align: left;
+    line-height: 1.4;
+    margin-top: 10px;
+  }
+}
+.marginPlan {
+  margin: 0px 40px;
+}
+@media (max-width: 1000px) {
+  .marginPlan {
+    margin: 0px;
+  }
+}
+.plan p {
+  line-height: 1.6;
+}
+@media (max-width: 1000px) {
+  .plan p {
+    line-height: 1.6;
+  }
+}
+
+.tables {
+  flex-direction: column;
+  border: none;
+  text-align: center;
+  margin: 25px 50px;
+  padding: 30px;
+  height: 550px;
+  width: 650px;
+  border-radius: 40px;
+  font-size: 20px;
+  box-shadow: 5px 5px 20px;
+}
+@media (max-width: 1000px) {
+  .tables {
+    flex-direction: column;
+    border: none;
+    text-align: center;
+    margin: 25px 50px;
+    padding: 30px;
+    height: 550px;
+    width: 300px;
+    border-radius: 40px;
+    font-size: 15px;
+    box-shadow: 5px 5px 20px;
+  }
+}
+.tuitionAndDates {
+  font-size: 50px;
+}
+@media (max-width: 1000px) {
+  .tuitionAndDates {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .tables h4 {
+    font-size: 20px;
+  }
+}
+.teacher {
+  margin-top: 40px;
+}
+@media (max-width: 1000px) {
+  .teacher {
+    margin: 40px 60px 0;
+    font-size: 20px;
+  }
+}
+.teacherCard {
+  text-align: center;
+  border: none;
+  width: 650px;
+  margin: 30px;
+
+  background: rgb(0, 87, 99);
+  border-radius: 40px;
+  height: 550px;
+  padding: 30px 80px;
+  box-shadow: 5px 5px 20px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  color: rgb(255, 153, 37);
+}
+@media (max-width: 1000px) {
+  .teacherCard {
+    text-align: center;
+    border: none;
+    width: 450px;
+    margin: 30px;
+    background: cyan;
+    border-radius: 40px;
+    height: 550px;
+    padding: 30px 80px;
+    box-shadow: 5px 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.teacherImg {
+  margin: 0px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+@media (max-width: 1000px) {
+  .teacherImg {
+    margin: 0px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+}

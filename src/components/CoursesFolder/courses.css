@@ -1,0 +1,335 @@
+.ourCourses {
+  color: rgb(7, 56, 24);
+  font-size: 200px;
+  margin-top: 400px;
+}
+.coursesTitleSpan {
+  font-size: 130px;
+  color: red;
+}
+.coursesTitle {
+  font-size: 80px;
+  color: red;
+}
+@media (max-width: 800px) {
+  .coursesTitleSpan {
+    font-size: 80px;
+  }
+}
+@media (max-width: 800px) {
+  .coursesTitle {
+    font-size: 30px;
+  }
+}
+
+.ourCouses {
+  font-size: 150px;
+  color: rgb(255, 153, 37);
+}
+
+@media (max-width: 800px) {
+  .ourCouses {
+    font-size: 100px;
+    color: rgb(255, 153, 37);
+  }
+}
+
+.coursesPage {
+  border-radius: 40px;
+  margin: 60px 60px 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 90px 0;
+  box-shadow: 5px 5px 20px;
+}
+
+@media (max-width: 800px) {
+  .coursesPage {
+    border-radius: 40px;
+    margin: 0 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 0px;
+  }
+}
+
+.materials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .materials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 800px) and (max-width: 1600px) {
+  .materials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
+.material {
+  border: none;
+  width: 20%;
+  margin: 30px;
+  border-radius: 40px;
+  height: 550px;
+  padding-top: 50px;
+  box-shadow: 5px 5px 20px;
+}
+
+/* @media (max-width: 800px) {
+  .material {
+    border: none;
+    width: 80%;
+    margin: 30px;
+    border-radius: 40px;
+    height: 550px;
+    padding-top: 50px;
+    box-shadow: 5px 5px 20px;
+  }
+} */
+
+/* @media (min-width: 800px) and (max-width: 1600px) {
+  .material {
+    border: none;
+    width: 40%;
+    margin: 30px;
+    border-radius: 40px;
+    height: 550px;
+    padding-top: 50px;
+    box-shadow: 5px 5px 20px;
+  }
+} */
+
+.logo {
+  height: 300px;
+  margin-bottom: 200px;
+}
+.btn {
+  padding: 10px 20px;
+  background: red;
+  border-radius: 40px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+.btn:hover {
+  box-shadow: 3px 3px 10px;
+
+  padding: 10px 20px;
+  background: white;
+  border-radius: 40px;
+  color: red;
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+#materialInfo {
+  height: 190px;
+  margin: 20px 50px 0px;
+  font-size: 18px;
+}
+
+.img {
+  height: 150px;
+  width: 150px;
+  border-radius: 30px;
+  padding: 5px;
+}
+.imgP {
+  height: 400px;
+  width: 600px;
+  border-radius: 50%;
+}
+
+.materials {
+  margin-top: 30px;
+}
+
+/* -----------------------FORM-------------------------- */
+
+.form {
+  border: none;
+  height: 700px;
+  width: 1200px;
+  border-radius: 40px;
+  margin: 50px 0 0 0;
+  padding: 90px 100px;
+
+  box-shadow: 5px 5px 20px;
+}
+/* @media (max-width: 800px) {
+  .form {
+    border: none;
+    height: 700px;
+    width: 500px;
+    border-radius: 40px;
+    margin: 50px 0 0 0;
+    padding: 90px 100px;
+    box-shadow: 5px 5px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+} */
+
+/* @media (min-width: 800px) and (max-width: 1600px) {
+  .form {
+    border: none;
+    height: 700px;
+    width: 650px;
+    border-radius: 40px;
+    margin: 50px 0 0 0;
+    padding: 90px 100px;
+    box-shadow: 5px 5px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+} */
+
+.input {
+  width: 1000px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/* @media (max-width: 800px) {
+  .input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 800px) and (max-width: 1600px) {
+  .input {
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+  }
+} */
+
+.nameFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* @media (max-width: 800px) {
+  .nameFlex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 800px) and (max-width: 1600px) {
+  .nameFlex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+} */
+
+.name {
+  height: 40px;
+  border-radius: 5px;
+  width: 490px;
+}
+
+/* @media (max-width: 800px) {
+  .name {
+    height: 30px;
+    border-radius: 5px;
+    width: 250px;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 800px) and (max-width: 1600px) {
+  .name {
+    height: 35px;
+    border-radius: 5px;
+    width: 500px;
+    margin-top: 20px;
+  }
+} */
+
+.formBtn {
+  color: white;
+  background: red;
+  border-radius: 30px;
+  font-size: 20px;
+  border: none;
+  padding: 7px;
+  width: 100px;
+}
+
+/* @media (max-width: 800px) {
+  .formBtn {
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 2px;
+    width: 60px;
+  }
+}
+@media (min-width: 800px) and (max-width: 1600px) {
+  .formBtn {
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 4px;
+    width: 80px;
+  }
+} */
+
+.formBtn:hover {
+  width: 100px;
+  padding: 5px;
+  border: red solid 2px;
+  color: red;
+  background: white;
+  border-radius: 30px;
+}
+
+/* 
+@media (max-width: 800px) {
+  .formBtn:hover {
+    width: 60px;
+    padding: 2px;
+    border: red solid 2px;
+    color: red;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px;
+  }
+}
+@media (min-width: 800px) and (max-width: 1600px) {
+  .formBtn:hover {
+    width: 80px;
+    padding: 4px;
+    border: red solid 2px;
+    color: red;
+    font-size: 20px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px;
+  }
+} */

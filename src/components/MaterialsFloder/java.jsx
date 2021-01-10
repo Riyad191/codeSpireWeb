@@ -1,25 +1,23 @@
 import React, { Component } from "react";
+import "./materials.css";
+import { Link } from "react-scroll";
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="theJavePage">
         <div className="topColor">
           <h1>
             <span>
               <i className="fa fa-xing"></i>
             </span>
             <br />
-            CODE<span style={{ color: "red" }}>SPIRE</span>
+            CODE SPIRE
             <br />
             <br />
             <br />
-            <h1 className="MERN">
-              <span style={{ color: "red" }}>J</span>
-              <span style={{ color: "white" }}>A</span>
-              <span style={{ color: "red" }}>V</span>
-              <span style={{ color: "white" }}>A</span>
-            </h1>
+            <br />
+            <h1 className="textColor">Java</h1>
           </h1>
         </div>
 
@@ -34,11 +32,11 @@ class App extends Component {
             ></div>
             <div className="gradientLine">
               <div>
-                <span style={{ color: "darkGreen" }}>
+                <span style={{ color: "black" }}>
                   <i className="fa fa-xing"></i>
                 </span>
                 <div>
-                  <span style={{ color: "darkGreen" }}>CODE</span>
+                  <span style={{ color: "black" }}>CODE</span>
                   <span style={{ color: "red" }}>SPIRE</span>
                 </div>
               </div>
@@ -47,13 +45,11 @@ class App extends Component {
             <div
               style={{
                 height: 40,
-                background:
-                  "linear-gradient(rgb(7, 56, 24),rgba(255, 255, 255, 0.157))",
+                background: "linear-gradient(black,rgba(255, 255, 255, 0.157))",
                 textAlign: "center",
               }}
             ></div>
           </div>
-
           <div style={{ width: "100%", textAlign: "center" }}>
             <div id="backGroundImgs">
               <img src="/imgs/javaaa.PNG" id="img" />
@@ -188,54 +184,19 @@ class App extends Component {
               </div>
             </div>
           </div>
+          <Link
+            className="scrollUp"
+            activeClass="active"
+            to="topColor"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            <i className="fa fa-arrow-up"></i>
+          </Link>
+
           {/* --------------------------------------------------- */}
-
-          <div id="icons">
-            <div className="effect laertes" style={{ width: "80%" }}>
-              <div
-                style={{
-                  textAlign: "center",
-                  fontSize: 30,
-                }}
-              >
-                <span style={{ color: "darkGreen" }}>
-                  <i className="fa fa-xing"></i>
-                </span>
-                <div>
-                  <span style={{ color: "darkGreen" }}>CODE</span>
-                  <span style={{ color: "red" }}>SPIRE</span>
-                </div>
-              </div>
-              <div className="greenBorder">
-                <div className="redBorder">
-                  <br />
-                  <h4 className="information">
-                    Copyright © 2017-2020 CodeSpire, LLC. All rights reserved.
-                  </h4>
-                  <div className="buttons">
-                    <a href="#" className="fb" title="Join us on Facebook">
-                      <i className="fa fa-facebook" aria-hidden="true"></i>
-                    </a>
-                    <a href="#" className="tw" title="Join us on Twitter">
-                      <i className="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-                    <a href="#" className="g-plus" title="Join us on Google+">
-                      <i className="fa fa-google-plus" aria-hidden="true"></i>
-                    </a>
-
-                    <a href="#" className="insta" title="Join us on Instagram">
-                      <i className="fa fa-instagram" aria-hidden="true"></i>
-                    </a>
-                    <a href="#" className="in" title="Join us on Linked In">
-                      <i className="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <br />
-          <br />
         </div>
       </div>
     );
@@ -244,18 +205,18 @@ class App extends Component {
 
 export default App;
 
-const teacher = {
-  textAlign: "center",
-  border: "none",
-  width: "650px",
-  margin: "30px",
-  background: "cyan",
-  borderRadius: "40px",
-  height: "550px",
-  padding: "30px 80px",
-  boxShadow: "5px 5px 20px",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  flexDirection: "column",
-};
+// const teacher = {
+//   textAlign: "center",
+//   border: "none",
+//   width: "650px",
+//   margin: "30px",
+//   background: "cyan",
+//   borderRadius: "40px",
+//   height: "550px",
+//   padding: "30px 80px",
+//   boxShadow: "5px 5px 20px",
+//   display: "flex",
+//   justifyContent: "center",
+//   alignItems: "center",
+//   flexDirection: "column",
+// };

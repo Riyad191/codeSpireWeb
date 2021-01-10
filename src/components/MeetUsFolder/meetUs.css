@@ -1,0 +1,154 @@
+.teamPage {
+  border-radius: 40px;
+  margin: 90px 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 90px 0;
+  box-shadow: 5px 5px 20px;
+}
+@media (max-width: 800px) {
+  .teamPage {
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    box-shadow: 0px 0px 0px;
+  }
+}
+.meetUs {
+  text-align: center;
+}
+
+.meetUsTitle {
+  font-size: 130px;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .meetUsTitle {
+    font-size: 60px;
+    color: white;
+  }
+}
+
+.card {
+  border: none;
+  padding: 30px 80px;
+  width: 40%;
+  margin: 30px;
+  background: cyan;
+  background: rgb(0, 87, 99);
+  border-radius: 40px;
+  height: 550px;
+  box-shadow: 5px 5px 20px;
+}
+.cardd {
+  border: none;
+  padding: 30px 80px;
+  width: 40%;
+  margin: 30px;
+  background: cyan;
+  background: rgb(0, 87, 99);
+  border-radius: 40px;
+  height: 550px;
+  box-shadow: 1px 1px 3px;
+}
+.cardd p {
+  color: rgb(255, 153, 37);
+}
+.nameColor {
+  color: rgb(255, 153, 37);
+}
+
+@media (max-width: 800px) {
+  .cardd {
+    border: none;
+
+    padding: 30px 80px;
+    width: 80%;
+    margin: 0px;
+    background: cyan;
+    background: none;
+    border-radius: 40px;
+    height: 750px;
+    box-shadow: 0px 0px 0px;
+  }
+}
+@media (max-width: 1000px) {
+  .card {
+    border: none;
+    padding: 30px 80px;
+    width: 80%;
+    margin: 0px;
+    background: cyan;
+    background: none;
+    border-radius: 40px;
+    height: 750px;
+    box-shadow: 0px 0px 0px;
+  }
+}
+.card p {
+  font-size: 21px;
+}
+.cardd p {
+  font-size: 21px;
+}
+@media (max-width: 1000px) {
+  .cardd p {
+    font-size: 17px;
+  }
+}
+@media (max-width: 1000px) {
+  .card p {
+    font-size: 17px;
+  }
+}
+
+.ourTeam {
+  font-size: 60px;
+  border-radius: 30px;
+  padding: 40px;
+  color: red;
+  width: 85%;
+}
+.ourTeamTitle {
+  font-size: 150px;
+  color: rgb(255, 153, 37);
+}
+.yasminCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teamCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1000px) {
+  .ourTeamTitle {
+    font-size: 60px;
+    color: gray;
+  }
+}
+.centerTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h4 {
+  padding: 20px;
+}
+.round {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}

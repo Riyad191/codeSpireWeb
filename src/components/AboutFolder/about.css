@@ -1,0 +1,201 @@
+.backGroundImgs {
+  border: none;
+  margin: 90px 60px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 20px;
+  /* height: 3600px; */
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 1000px) {
+  .backGroundImgs {
+    border: black solid 1px;
+    box-shadow: 5px 5px 20px;
+    margin: 30px 10px 0px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 0px;
+    height: 4300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.backGroundImgs h2 {
+  font-size: 80px;
+  color: rgb(255, 153, 37);
+  margin-bottom: 70px;
+}
+@media (max-width: 1000px) {
+  .backGroundImgs h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .backGroundImgs img {
+    height: 200px;
+    width: 300px;
+  }
+}
+@media (max-width: 1000px) {
+  .backGroundImgs h4 {
+    margin-top: 5px;
+  }
+}
+
+.planOne {
+  border: none;
+  padding: 30px;
+  margin: 60px 0;
+  height: 350px;
+  width: 1300px;
+  border-radius: 40px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 5px 5px 20px;
+}
+.planOne p,
+.planTwo p {
+  color: rgb(0, 87, 99);
+}
+.planOne h4,
+.planTwo h4 {
+  color: rgb(255, 153, 37);
+  font-size: 30px;
+}
+
+@media (max-width: 1000px) {
+  .planOne {
+    border: none;
+    padding: 0px;
+    height: 550px;
+    width: 300px;
+    border-radius: 40px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+  }
+}
+.planTwo {
+  border: none;
+  padding: 30px;
+  height: 500px;
+  width: 1300px;
+  border-radius: 40px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 5px 5px 20px;
+}
+@media (max-width: 1000px) {
+  .planTwo {
+    border: none;
+    padding: 0px;
+    height: 950px;
+    width: 300px;
+    border-radius: 40px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+  }
+}
+.planOne div a {
+  text-decoration: none;
+  color: rgb(255, 153, 37);
+  font-size: 90px;
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .planOne div a {
+    text-decoration: none;
+    color: gray;
+    font-size: 50px;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.planTwo div a {
+  text-decoration: none;
+  color: rgb(255, 153, 37);
+  font-size: 90px;
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .planTwo div a {
+    text-decoration: none;
+    color: gray;
+    font-size: 50px;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.planOne div {
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planTwo div {
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planOne p {
+  width: 50%;
+  margin: 100px;
+  font-size: 21px;
+}
+@media (max-width: 1000px) {
+  .planOne p {
+    width: 50%;
+    margin: 10px;
+    font-size: 15px;
+  }
+}
+.planTwo p {
+  width: 50%;
+  margin: 100px;
+
+  font-size: 21px;
+}
+@media (max-width: 1000px) {
+  .planTwo p {
+    width: 50%;
+    margin: 10px;
+    font-size: 15px;
+  }
+}

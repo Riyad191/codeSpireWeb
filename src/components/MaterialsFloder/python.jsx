@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "./materials.css";
+import { Link } from "react-scroll";
 
 class App extends Component {
   render() {
@@ -10,27 +12,12 @@ class App extends Component {
               <i className="fa fa-xing"></i>
             </span>
             <br />
-            CODE<span style={{ color: "red" }}>SPIRE</span>
+            CODE SPIRE
             <br />
             <br />
             <br />
-            <h1 className="dataAnalytics">
-              <span style={{ color: "red" }}>D</span>
-              <span style={{ color: "white" }}>A</span>
-              <span style={{ color: "red" }}>T</span>
-              <span style={{ color: "white" }}>A</span>
-              <br />
-
-              <span style={{ color: "red" }}>A</span>
-              <span style={{ color: "white" }}>N</span>
-              <span style={{ color: "red" }}>A</span>
-              <span style={{ color: "white" }}>L</span>
-              <span style={{ color: "red" }}>Y</span>
-              <span style={{ color: "white" }}>T</span>
-              <span style={{ color: "red" }}>I</span>
-              <span style={{ color: "white" }}>C</span>
-              <span style={{ color: "red" }}>S</span>
-            </h1>
+            <br />
+            <h1 className="textColor">Python</h1>
           </h1>
         </div>
 
@@ -45,11 +32,11 @@ class App extends Component {
             ></div>
             <div className="gradientLine">
               <div>
-                <span style={{ color: "darkGreen" }}>
+                <span style={{ color: "black" }}>
                   <i className="fa fa-xing"></i>
                 </span>
                 <div>
-                  <span style={{ color: "darkGreen" }}>CODE</span>
+                  <span style={{ color: "black" }}>CODE</span>
                   <span style={{ color: "red" }}>SPIRE</span>
                 </div>
               </div>
@@ -58,34 +45,44 @@ class App extends Component {
             <div
               style={{
                 height: 40,
-                background:
-                  "linear-gradient(rgb(7, 56, 24),rgba(255, 255, 255, 0.157))",
+                background: "linear-gradient(black,rgba(255, 255, 255, 0.157))",
                 textAlign: "center",
               }}
             ></div>
           </div>
           <div style={{ width: "100%", textAlign: "center" }}>
             <div id="backGroundImgs">
-              <img src="/imgs/dataaa.PNG" id="img" />
-              <div className="materialInfo">
+              <img src="/imgs/pythonnn.PNG" id="img" />
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  flexDirection: "column",
+                }}
+              >
                 <div className="planFlex">
                   <div className="plan">
                     <p>
                       <h1 className="generalInfo">General Information</h1>
                       <br />
                       <p className="marginPlan">
-                        In this Intro to Data Analytics course, learn Excel, SQL
-                        programming, Power BI to become a junior data analyst,
-                        the fastest growing job in the tech world. Data is
-                        considered as new gold, and data scientists are the new
-                        gold miners. Learn the skills you need for this hottest
-                        job of our time. This 12-week hands-on course will take
-                        you on an end-to-end journey in data science career.
-                        Ready to reinvent yourself and become a data scientist?
-                        Please fill out an application so that we can learn more
-                        about you and determine if this course is the best fit
-                        for you and your goals. As soon as we receive your
-                        application, we’ll be in contact. Get started.
+                        Full Stack Web Development course will teach you how to
+                        build full blown, responsive front-end and back-end web
+                        applications. Full stack engineers are those with the
+                        skills and expertise to manage employees and projects
+                        that develop the code that connects frontend and
+                        back-end systems. In this Coding Bootcamp, you will
+                        learn some of the most highly marketable and in-demand
+                        skills to enter the job market. Learn how to build your
+                        own web applications using JavaScript, Python and
+                        frameworks such as React, Angular and Django depending
+                        on the cohort and location.
+                        <br />
+                        <br />
+                        Ready to reinvent yourself and learn to code? Get
+                        started by filling out an application and we will
+                        contact you shortly.
                       </p>
                     </p>
                   </div>
@@ -93,35 +90,33 @@ class App extends Component {
                     <ul className="planUL">
                       <h1 className="courseOutline">Course Outline</h1>
                       <br />
-                      <li>Common Excel functions</li>
-                      <li>Conditional aggregation, pivot charts, slicers</li>
                       <li>
-                        Importing data, creating data models, creating
-                        relationships in Excel
-                      </li>
-                      <li>Basic, intermediate and advanced SQL</li>
-                      <li>
-                        Data visualization, transformation, and relationship
-                        building in PowerBI
+                        The first half of the course will concentrate on
+                        front-end development while the second half will center
+                        around server-side development.
                       </li>
                       <li>
-                        Publishing reports, creating real-time visuals and
-                        dashboards in PowerBI
+                        Add functionality to your websites with JavaScript and
+                        jQuery or Python and Django
                       </li>
+                      <li>Learn the fundamentals of programming</li>
+                      <li>Data structures and Algorithms</li>
 
-                      {/* <h1>Field of Data Analytics:</h1> */}
-                      <br />
-                      <li>#1 in the List of Best Jobs in America</li>
-                      <li>#1 in the List of 25 Jobs with Work-Life Balance</li>
-                      <li>The 10 Hardest Jobs to Fill Right Now</li>
+                      <li>DOM manipulation</li>
                       <li>
-                        Harvard Business Review calls it sexiest job of 21st
-                        century
+                        Learn industry standard tools used for programming
                       </li>
                       <li>
-                        190,000 predicted shortage in Data Scientists by 2018
+                        Prep for technical interviews and learn how to think
+                        through commonly asked questions
                       </li>
-
+                      <li>Version control with Git and GitHub</li>
+                      <li>NoSQL databases</li>
+                      <li>TCP and HTTP</li>
+                      <li>Test-Driven Development</li>
+                      <li>Debugging</li>
+                      <li>REST APIs</li>
+                      <li>Heroku</li>
                       <br />
                     </ul>
                   </div>
@@ -134,22 +129,22 @@ class App extends Component {
                         <tr>
                           <th scope="col">Stack Taught</th>
 
-                          <td>Data Analytics</td>
+                          <td>PYTHON</td>
                         </tr>
                         <tr>
                           <th scope="col">Start date</th>
-                          <td scope="row">Sep 18th, 2020</td>
+                          <td scope="row">Dec 11th, 2020</td>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <th scope="col">Deadline to Enroll</th>
-                          <td>Oct 3rd, 2020</td>
+                          <td>Dec 25th, 2020</td>
                         </tr>
 
                         <tr>
                           <th scope="col"> Tuition</th>
-                          <td>$3,499</td>
+                          <td>$4,199</td>
                         </tr>
                         <tr>
                           <th scope="col">Enrollment Status</th>
@@ -158,16 +153,15 @@ class App extends Component {
 
                         <tr>
                           <th scope="col">Campus</th>
-
                           <td>Online</td>
                         </tr>
                       </tbody>
                     </table>
 
-                    <h4>Sunday- 6pm – 9pm & monday 9am - 1pm</h4>
+                    <h4>Wednesdays- 6pm – 9pm & Saturdays 9am to 12pm</h4>
                   </div>
                   <div className="teacherCard">
-                    <img className="teacherImg" src="/imgs/ema.jpg" />
+                    <img className="teacherImg" src="/imgs/nithin.jpg" />
 
                     <div className="effect egeon" style={{ marginRight: 300 }}>
                       <div className="buttons">
@@ -178,8 +172,8 @@ class App extends Component {
                     </div>
                     <h2 className="teacher">
                       Engineer{" "}
-                      <span style={{ fontWeight: "bold" }}>Emmanuel</span> is
-                      the teacher of Data Analytics course. <br />
+                      <span style={{ fontWeight: "bold" }}>Nithin Moorthy</span>{" "}
+                      is the teacher of PYTHON course. <br />
                       Visit the{" "}
                       <span style={{ color: "red", fontSize: 35 }}>
                         Meet
@@ -192,9 +186,20 @@ class App extends Component {
               </div>
             </div>
           </div>
-          {/* --------------------------------------------------- */}
+          <Link
+            className="scrollUp"
+            activeClass="active"
+            to="topColor"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            <i className="fa fa-arrow-up"></i>
+          </Link>
 
-          <div id="icons">
+          {/* -------------------------------------------------------- */}
+          {/* <div id="icons">
             <div className="effect laertes" style={{ width: "80%" }}>
               <div
                 style={{
@@ -239,7 +244,7 @@ class App extends Component {
             </div>
           </div>
           <br />
-          <br />
+          <br /> */}
         </div>
       </div>
     );
@@ -248,18 +253,18 @@ class App extends Component {
 
 export default App;
 
-const teacher = {
-  textAlign: "center",
-  border: "none",
-  width: "650px",
-  margin: "30px",
-  background: "cyan",
-  borderRadius: "40px",
-  height: "550px",
-  padding: "30px 80px",
-  boxShadow: "5px 5px 20px",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  flexDirection: "column",
-};
+// const teacher = {
+//   textAlign: "center",
+//   border: "none",
+//   width: "650px",
+//   margin: "30px",
+//   background: "cyan",
+//   borderRadius: "40px",
+//   height: "550px",
+//   padding: "30px 80px",
+//   boxShadow: "5px 5px 20px",
+//   display: "flex",
+//   justifyContent: "center",
+//   alignItems: "center",
+//   flexDirection: "column",
+// };

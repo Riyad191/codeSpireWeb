@@ -197,55 +197,6 @@ class App extends Component {
           >
             <i className="fa fa-arrow-up"></i>
           </Link>
-
-          {/* --------------------------------------------------- */}
-          {/* 
-          <div id="icons">
-            <div className="effect laertes" style={{ width: "80%" }}>
-              <div
-                style={{
-                  textAlign: "center",
-                  fontSize: 30,
-                }}
-              >
-                <span style={{ color: "darkGreen" }}>
-                  <i className="fa fa-xing"></i>
-                </span>
-                <div>
-                  <span style={{ color: "darkGreen" }}>CODE</span>
-                  <span style={{ color: "red" }}>SPIRE</span>
-                </div>
-              </div>
-              <div className="greenBorder">
-                <div className="redBorder">
-                  <br />
-                  <h4 className="information">
-                    Copyright © 2017-2020 CodeSpire, LLC. All rights reserved.
-                  </h4>
-                  <div className="buttons">
-                    <a href="#" className="fb" title="Join us on Facebook">
-                      <i className="fa fa-facebook" aria-hidden="true"></i>
-                    </a>
-                    <a href="#" className="tw" title="Join us on Twitter">
-                      <i className="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-                    <a href="#" className="g-plus" title="Join us on Google+">
-                      <i className="fa fa-google-plus" aria-hidden="true"></i>
-                    </a>
-
-                    <a href="#" className="insta" title="Join us on Instagram">
-                      <i className="fa fa-instagram" aria-hidden="true"></i>
-                    </a>
-                    <a href="#" className="in" title="Join us on Linked In">
-                      <i className="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <br />
-          <br /> */}
         </div>
       </div>
     );
@@ -253,19 +204,3 @@ class App extends Component {
 }
 
 export default App;
-
-// const teacher = {
-//   textAlign: "center",
-//   border: "none",
-//   width: "650px",
-//   margin: "30px",
-//   background: "cyan",
-//   borderRadius: "40px",
-//   height: "550px",
-//   padding: "30px 80px",
-//   boxShadow: "5px 5px 20px",
-//   display: "flex",
-//   justifyContent: "center",
-//   alignItems: "center",
-//   flexDirection: "column",
-// };

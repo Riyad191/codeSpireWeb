@@ -109,10 +109,6 @@ class App extends Component {
                         manage and store your app data.
                       </li>
                       <li>Have your LinkedIn profile and resume reviewed</li>
-                      {/* <li>
-                        Learn how to pass technical interviews and land a job as
-                        a software engineer
-                      </li> */}
 
                       <br />
                     </ul>
@@ -195,8 +191,6 @@ class App extends Component {
           >
             <i className="fa fa-arrow-up"></i>
           </Link>
-
-          {/* --------------------------------------------------- */}
         </div>
       </div>
     );
@@ -204,19 +198,3 @@ class App extends Component {
 }
 
 export default App;
-
-// const teacher = {
-//   textAlign: "center",
-//   border: "none",
-//   width: "650px",
-//   margin: "30px",
-//   background: "cyan",
-//   borderRadius: "40px",
-//   height: "550px",
-//   padding: "30px 80px",
-//   boxShadow: "5px 5px 20px",
-//   display: "flex",
-//   justifyContent: "center",
-//   alignItems: "center",
-//   flexDirection: "column",
-// };

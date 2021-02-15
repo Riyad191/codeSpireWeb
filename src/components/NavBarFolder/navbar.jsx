@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
 
-// import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-
 export class navbar extends Component {
   render() {
     return (

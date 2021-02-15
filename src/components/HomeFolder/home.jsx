@@ -14,10 +14,6 @@ export class home extends Component {
         <Navbar />
 
         <div className="theHomePage">
-          {/* <a className="scrollUp" href="">
-            <i className="fa fa-github"></i>
-          </a> */}
-
           <div className="topColorHome">
             <br />
             <div>

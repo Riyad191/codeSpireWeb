@@ -33,8 +33,6 @@ class about extends Component {
         <div className="backGroundImgs">
           <h2>What makes CodeSpire exceptional?</h2>
 
-          {/* <img src="/imgs/homeBackgroond.PNG" /> */}
-
           <div className="planOne">
             <div>
               <a className="fa fa-money"></a>

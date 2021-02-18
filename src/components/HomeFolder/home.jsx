@@ -82,12 +82,6 @@ export class home extends Component {
                   "linear-gradient( black,rgba(255, 255, 255, 0.157))",
                 textAlign: "center",
               }}
-              // style={{
-              //   height: 40,
-              //   background:
-              //     "linear-gradient(rgb(7, 56, 24),rgba(255, 255, 255, 0.157))",
-              //   textAlign: "center",
-              // }}
             ></div>
           </div>
           <div className="frontTitle">

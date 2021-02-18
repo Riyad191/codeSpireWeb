@@ -1,9 +1,9 @@
 .navContent {
   margin: 0 15px;
   padding: 10px;
-  /* background: violet; */
+
   cursor: pointer;
-  /* border-radius: 20px; */
+
   color: rgb(255, 152, 104);
   text-decoration: none;
 }
@@ -13,13 +13,10 @@
 }
 .navContent:hover {
   border-bottom: rgb(255, 152, 104) solid 2px;
-  /* background: rgb(255, 152, 104); */
+
   text-decoration: none;
   color: rgb(255, 152, 104);
 }
-/* .secondBorder {
-  border-radius: 20px;
-} */
 
 .theNavBar {
   height: 80px;
@@ -246,4 +243,23 @@ button:focus {
 .dropDownParent ul li:hover {
   /* background: rgb(255, 152, 104); */
   padding-left: 8px;
+}
+@media (max-width: 1368px) {
+  .theNavBar {
+    height: 180px;
+
+    flex-direction: column;
+  }
+  .links {
+    margin-bottom: 20px;
+  }
+  .navLeft {
+    flex-direction: column;
+  }
+  .navRight {
+    display: none;
+  }
+  .navLilLine {
+    display: none;
+  }
 }

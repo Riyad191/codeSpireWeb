@@ -61,15 +61,12 @@ export class home extends Component {
             ></div>
             <div className="gradientLine">
               <div>
-                {/* <span style={{ color: "darkGreen" }}>
-                  <i className="fa fa-xing"></i>
-                </span> */}
                 <span style={{ color: "black" }}>
                   <i className="fa fa-xing"></i>
                 </span>
                 <div>
                   <span style={{ color: "black" }}>CODE</span>
-                  {/* <span style={{ color: "darkGreen" }}>CODE</span> */}
+
                   <span style={{ color: "red" }}>SPIRE</span>
                 </div>
               </div>
@@ -127,7 +124,14 @@ export class home extends Component {
               </div>
             </div>
 
-            <div className="homeImg"></div>
+            <div className="homeImg">
+              <img
+                src="https://coconutcreatives.co.uk/wp-content/uploads/2018/05/Strategy.png"
+                alt=""
+                title=""
+                srcset="https://coconutcreatives.co.uk/wp-content/uploads/2018/05/Strategy.png 842w, https://coconutcreatives.co.uk/wp-content/uploads/2018/05/Strategy-300x212.png 300w, https://coconutcreatives.co.uk/wp-content/uploads/2018/05/Strategy-768x543.png 768w, https://coconutcreatives.co.uk/wp-content/uploads/2018/05/Strategy-610x431.png 610w, https://coconutcreatives.co.uk/wp-content/uploads/2018/05/Strategy-400x284.png 400w"
+              ></img>
+            </div>
           </div>
 
           <Link

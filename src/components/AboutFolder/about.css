@@ -199,3 +199,50 @@
     font-size: 15px;
   }
 }
+@media (max-width: 480px) {
+  .backGroundImgs {
+    border: none;
+    margin: 0;
+
+    box-shadow: 0px 0px 0px;
+    height: 2700px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .planOne,
+  .planTwo {
+    border: none;
+    padding: 0;
+    margin: 20px 0;
+
+    width: 90%;
+    border-radius: 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px;
+  }
+  .planOne {
+    height: 400px;
+  }
+
+  .planTwo {
+    height: 560px;
+  }
+
+  .planOne p,
+  .planTwo p {
+    width: 90%;
+  }
+  .planOne h4,
+  .planTwo h4 {
+    font-size: 30px;
+  }
+  .backGroundImgs h2 {
+    margin-bottom: 40px;
+  }
+}

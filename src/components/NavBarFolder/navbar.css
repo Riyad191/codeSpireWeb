@@ -8,7 +8,6 @@
   text-decoration: none;
 }
 .links {
-  /* margin: 20px 5px 0; */
   /* border: solid 2px red; */
 }
 .navContent:hover {
@@ -261,5 +260,37 @@ button:focus {
   }
   .navLilLine {
     display: none;
+  }
+}
+@media (max-width: 480px) {
+  .theNavBar {
+    height: 180px;
+    width: 414px;
+    padding-right: 20px;
+
+    flex-direction: column;
+  }
+  .links {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .navLeft {
+    flex-direction: column;
+  }
+  .navRight {
+    display: none;
+  }
+  .navLilLine {
+    display: none;
+  }
+  .navContent {
+    margin: 0 3px;
+  }
+  .navLogo {
+    margin-top: 20px;
   }
 }

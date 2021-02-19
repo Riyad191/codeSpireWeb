@@ -16,7 +16,7 @@ class meetUs extends Component {
             ></div>
             <div className="gradientLine">
               <div>
-                <div style={{ marginRight: 70 }}>
+                <div>
                   <span style={{ color: "black" }}>Meet</span>
                   <span style={{ color: "red", marginLeft: "10px" }}>Us</span>
                 </div>

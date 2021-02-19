@@ -15,7 +15,7 @@ class about extends Component {
           ></div>
 
           <div className="gradientLine">
-            <div style={{ marginRight: 90 }}>
+            <div>
               <span style={{ color: "black" }}>About </span>
               <span style={{ color: "red" }}>Us</span>
             </div>

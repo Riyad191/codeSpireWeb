@@ -1,7 +1,7 @@
 #contacts {
   margin: 0px;
   color: black;
-  /* border: black solid 1px; */
+
   background: rgb(0, 87, 99);
   border: none;
   margin: 90px 60px;
@@ -132,11 +132,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+
     flex-direction: column;
     text-align: center;
     margin: 40px 0 60px;
   }
+
   .formLineFineUs {
     display: flex;
     justify-content: center;
@@ -144,11 +145,7 @@
     flex-direction: column;
     margin: 0px;
   }
-  .contactsTitle a {
-    text-decoration: none;
-    color: red;
-    margin-right: 5px;
-  }
+
   .contactsForm {
     margin-bottom: 10px;
   }
@@ -188,14 +185,12 @@
 
   .secondryLine {
     display: none;
+    height: 10px;
+    width: 100%;
+    margin: 0;
+    border-left: solid red 5px;
+  }
 
-    height: 0px;
-    width: 0px;
-    margin: 0px 20px 12px;
-  }
-  .theContactPage {
-    /* padding-left: 40px; */
-  }
   #contacts {
     margin: 0 50px;
     text-align: center;
@@ -209,7 +204,7 @@
     align-items: center;
     flex-direction: column;
     border: none;
-    /* height: 480px; */
+
     padding: 0 20px 10px;
     margin: 20px 0;
     width: 90%;

@@ -34,7 +34,7 @@ export class title extends Component {
 
           <div className="coursesPage">
             <div>
-              <div className="ourCouses">Our Courses</div>
+              <div className="ourCourses">Our Courses</div>
             </div>
             <div className="materials">
               <div className="material">
@@ -45,8 +45,7 @@ export class title extends Component {
                 <div id="materialInfo">
                   <p>
                     In 16 weeks, learn to code responsive web applications using
-                    HTML, CSS, JavaScript and JavaScript frameworks like Angular
-                    and React.
+                    HTML, CSS, JavaScript and JavaScript frameworks like React.
                   </p>
                 </div>
 

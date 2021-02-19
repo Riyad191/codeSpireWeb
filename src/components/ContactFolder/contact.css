@@ -13,11 +13,11 @@
   align-items: center;
   flex-direction: column;
 }
-@media (max-width: 1000px) {
-  #contacts {
-    margin: 0px;
-    text-align: center;
-  }
+.theContactPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactsTitle {
@@ -29,17 +29,7 @@
 
   width: 100%;
 }
-@media (max-width: 1000px) {
-  .contactsTitle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    flex-direction: column;
-    text-align: center;
-    margin: 40px 0 60px;
-  }
-}
+
 .formLineFineUs {
   display: flex;
   justify-content: space-evenly;
@@ -48,26 +38,12 @@
   /* border: black solid 1px; */
   width: 100%;
 }
-@media (max-width: 1000px) {
-  .formLineFineUs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0px;
-  }
-}
+
 .contactsTitle a {
   text-decoration: none;
   color: red;
 }
-@media (max-width: 1000px) {
-  .contactsTitle a {
-    text-decoration: none;
-    color: red;
-    margin-right: 5px;
-  }
-}
+
 .contactsTitle span {
   font-size: 20px;
 }
@@ -82,22 +58,11 @@
   border-top: solid red 5px;
 }
 
-@media (max-width: 1000px) {
-  .mainLine {
-    width: 300px;
-    border-top: solid red 5px;
-    margin-bottom: 40px;
-  }
-}
 .getInTouch {
   font-size: 60px;
   color: rgb(255, 153, 37);
 }
-@media (max-width: 1000px) {
-  .getInTouch {
-    font-size: 50px;
-  }
-}
+
 .phone {
   margin: 20px;
   color: aliceblue;
@@ -107,65 +72,27 @@
   color: aliceblue;
 }
 
-@media (max-width: 1000px) {
-  .phone {
-    margin: 06px 0 20px 5px;
-    font-size: 15px;
-  }
-}
-@media (max-width: 1000px) {
-  .email {
-    margin: 06px 0 20px 5px;
-    font-size: 15px;
-  }
-}
 .phoneInput {
   width: 500px;
   height: 40px;
   margin-bottom: 10px;
 }
-@media (max-width: 1000px) {
-  .phoneInput {
-    width: 300px;
-    height: 20px;
-    font-size: 12px;
-    margin-bottom: 2px;
-  }
-}
+
 .emailInput {
   width: 500px;
   height: 40px;
   margin-bottom: 10px;
 }
-@media (max-width: 1000px) {
-  .emailInput {
-    width: 300px;
-    height: 20px;
-    font-size: 12px;
-    margin-bottom: 2px;
-  }
-}
+
 .contactsForm {
   margin-bottom: 125px;
 }
-@media (max-width: 1000px) {
-  .contactsForm {
-    margin-bottom: 55px;
-  }
-}
+
 .messageInput {
   width: 500px;
   border: none;
   height: 100px;
   margin-top: 4px;
-}
-@media (max-width: 1000px) {
-  .messageInput {
-    width: 300px;
-    border: none;
-    height: 60px;
-    font-size: 12px;
-  }
 }
 
 .secondryLine {
@@ -174,38 +101,21 @@
   margin: 0px 20px 125px;
   border-left: solid red 5px;
 }
-@media (max-width: 1000px) {
-  .secondryLine {
-    height: 3px;
-    width: 300px;
-    margin: 0px;
-    border: solid red 3px;
-  }
-}
+
 .findUs {
   font-size: 50px;
   color: rgb(255, 153, 37);
 }
-@media (max-width: 1000px) {
-  .findUs {
-    font-size: 40px;
-    margin-top: 30px;
-  }
-}
+
 .lilMap {
   margin-bottom: 125px;
-}
-@media (max-width: 1000px) {
-  .lilMap {
-    margin-bottom: 125px;
-  }
+  width: 500px;
+  height: 270px;
 }
 
 .contactsBtn {
   color: white;
   background: red;
-  /* outline: solid 3px rgb(0, 195, 255); */
-  /* transition: all ease-in-out 300ms; */
 
   font-size: 20px;
   border: none;
@@ -213,46 +123,101 @@
   width: 500px;
   margin-top: 10px;
 }
-@media (max-width: 1000px) {
-  .contactsBtn {
-    color: white;
-    background: red;
-    font-size: 15px;
-    border: none;
-    padding: 3px;
-    width: 300px;
-    margin-top: 2px;
-  }
-}
+
 .contactsBtn:hover {
   opacity: 0.7;
-  /* padding: 5px;
-
-  border: red solid 2px;
-  font-weight: bold;
-  color: red;
-  background: white; */
-  /* outline: solid 3px rgb(0, 195, 255); */
-  /* outline-offset: 4px; */
 }
-/* .apply button {
- 
-  background: rgb(0, 195, 255);
- 
-  border: none;
+@media (max-width: 480px) {
+  .contactsTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 0 60px;
+  }
+  .formLineFineUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+  }
+  .contactsTitle a {
+    text-decoration: none;
+    color: red;
+    margin-right: 5px;
+  }
+  .contactsForm {
+    margin-bottom: 10px;
+  }
 
- 
-  padding: 5px 14px;
- 
-  cursor: pointer;
- 
+  .contactsBtn {
+    font-size: 14px;
+    border: none;
+    padding: 4px;
+    width: 300px;
+  }
+  .mainLine {
+    display: none;
+  }
 
-  color: white;
-  text-decoration: none;
-  outline: solid 3px rgb(0, 195, 255);
-  transition: all ease-in-out 300ms;
+  .phoneInput {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .emailInput {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .contactsForm {
+    margin-bottom: 125px;
+  }
+
+  .messageInput {
+    width: 300px;
+    border: none;
+    height: 70px;
+    margin-top: 4px;
+  }
+
+  .secondryLine {
+    display: none;
+
+    height: 0px;
+    width: 0px;
+    margin: 0px 20px 12px;
+  }
+  .theContactPage {
+    /* padding-left: 40px; */
+  }
+  #contacts {
+    margin: 0 50px;
+    text-align: center;
+
+    border: none;
+
+    box-shadow: 5px 5px 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    /* height: 480px; */
+    padding: 0 20px 10px;
+    margin: 20px 0;
+    width: 90%;
+    border-radius: 0;
+  }
+  .lilMap {
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
-.apply button:hover {
-  outline: solid 3px rgb(0, 195, 255);
-  outline-offset: 4px;
-} */

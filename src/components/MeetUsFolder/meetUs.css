@@ -9,6 +9,7 @@
   padding: 90px 0;
   box-shadow: 5px 5px 20px;
 }
+
 @media (max-width: 800px) {
   .teamPage {
     margin: 0px;
@@ -59,6 +60,7 @@
   height: 550px;
   box-shadow: 1px 1px 3px;
 }
+
 .cardd p {
   color: rgb(255, 153, 37);
 }
@@ -133,12 +135,6 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 1000px) {
-  .ourTeamTitle {
-    font-size: 60px;
-    color: gray;
-  }
-}
 .centerTitle {
   display: flex;
   align-items: center;
@@ -151,4 +147,31 @@ h4 {
   height: 150px;
   width: 150px;
   border-radius: 50%;
+}
+@media (max-width: 480px) {
+  .cardd {
+    border: none;
+    height: 480px;
+    padding: 0 20px 10px;
+    margin: 20px 0;
+    width: 90%;
+    border-radius: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+    background: rgb(0, 87, 99);
+  }
+  .cardd p {
+    font-size: 14px;
+  }
+  .ourTeamTitle {
+    font-size: 60px;
+    color: rgb(255, 174, 0);
+  }
+  .teamPage {
+    margin: 60px 0;
+  }
 }

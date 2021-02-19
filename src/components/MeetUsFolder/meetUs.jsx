@@ -34,10 +34,7 @@ class meetUs extends Component {
           <div className="teamPage">
             <div className="ourTeamTitle">Our team</div>
             <br />
-            <br />
-            <br />
-            <br />
-            <br />
+
             <div className="yasminCard">
               <div className="cardd">
                 <h1 className="nameColor">Yasmin Ali</h1>

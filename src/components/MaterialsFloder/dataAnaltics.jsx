@@ -16,12 +16,7 @@ class App extends Component {
             <br />
             <br />
             <br />
-            <h1
-              style={{
-                fontSize: 130,
-              }}
-              className="textColor"
-            >
+            <h1 className=" data">
               Data
               <br />
               Analytics
@@ -103,7 +98,6 @@ class App extends Component {
                         dashboards in PowerBI
                       </li>
 
-                      {/* <h1>Field of Data Analytics:</h1> */}
                       <br />
                       <li>#1 in the List of Best Jobs in America</li>
                       <li>#1 in the List of 25 Jobs with Work-Life Balance</li>
@@ -163,7 +157,7 @@ class App extends Component {
                   <div className="teacherCard">
                     <img className="teacherImg" src="/imgs/ema.jpg" />
 
-                    <div className="effect egeon" style={{ marginRight: 300 }}>
+                    <div className="effect egeon" id="mernIcon">
                       <div className="buttons">
                         <a href="#" className="in">
                           <i className="fa fa-linkedin"></i>

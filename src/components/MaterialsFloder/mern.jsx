@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="dad">
         <div className="topColor">
           <h1>
             <span>
@@ -53,7 +53,7 @@ class App extends Component {
               }}
             ></div>
           </div>
-          <div style={{ width: "100%", textAlign: "center" }}>
+          <div>
             <div id="backGroundImgs">
               <img src="/imgs/mernnn.PNG" id="img" />
               <div className="materialInfo">
@@ -160,7 +160,7 @@ class App extends Component {
                   <div className="teacherCard">
                     <img className="teacherImg" src="/imgs/riyad.PNG" />
 
-                    <div className="effect egeon" style={{ marginRight: 300 }}>
+                    <div className="effect egeon" id="mernIcon">
                       <div className="buttons">
                         <a href="#" className="in">
                           <i className="fa fa-linkedin"></i>
@@ -185,7 +185,7 @@ class App extends Component {
               </div>
             </div>
           </div>
-          <Link
+          {/* <Link
             className="scrollUp"
             activeClass="active"
             to="topColor"
@@ -195,7 +195,7 @@ class App extends Component {
             duration={500}
           >
             <i className="fa fa-arrow-up"></i>
-          </Link>
+          </Link> */}
         </div>
       </div>
     );

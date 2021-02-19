@@ -163,7 +163,7 @@ class App extends Component {
                   <div className="teacherCard">
                     <img className="teacherImg" src="/imgs/nithin.jpg" />
 
-                    <div className="effect egeon" style={{ marginRight: 300 }}>
+                    <div className="effect egeon" id="mernIcon">
                       <div className="buttons">
                         <a href="#" className="in">
                           <i className="fa fa-linkedin"></i>

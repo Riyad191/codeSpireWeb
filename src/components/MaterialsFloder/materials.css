@@ -16,56 +16,22 @@
     rgb(255, 235, 198) 100%,
     rgb(0, 61, 61) 100%
   );
-  /* background-image: url("./img/react.PNG");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
 }
-/* .scrollUp {
-  font-size: 26px;
-  color: red;
-  position: fixed;
-  bottom: 40px;
-  right: 50px;
-  cursor: pointer;
-  background: rgb(255, 220, 167);
-  padding: 7px 10px;
-  border-radius: 10px;
-} */
 
 .planFlex {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
 
-  /* width: 100%; */
-}
-@media (max-width: 1000px) {
-  .planFlex {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-}
 .textColor {
   font-size: 200px;
   color: rgb(255, 145, 0);
-  /* color: red; */
 }
 .dataAnalytics {
   font-size: 180px;
 }
-@media (max-width: 1000px) {
-  .dataAnalytics {
-    font-size: 60px;
-  }
-}
-@media (max-width: 1000px) {
-  .MERN {
-    font-size: 100px;
-  }
-}
+
 .materialInfo {
   display: flex;
   justify-content: center;
@@ -81,24 +47,9 @@
   box-shadow: 5px 5px 20px;
 }
 
-@media (max-width: 1000px) {
-  #backGroundImgs {
-    border: none;
-    margin: 90px 60px;
-    height: 3100px;
-    box-shadow: 0px 0px 0px;
-  }
-}
-
 #img {
   height: 300px;
   margin: 100px 1500px 0 180px;
-}
-@media (max-width: 1000px) {
-  #img {
-    height: 150px;
-    margin: 0px;
-  }
 }
 
 .plan {
@@ -111,68 +62,32 @@
   font-size: 22px;
   box-shadow: 5px 5px 20px;
 }
-@media (max-width: 1000px) {
-  .plan {
-    border: none;
-    margin: 25px 50px;
-    padding: 30px;
-    height: 870px;
-    width: 250px;
-    border-radius: 40px;
-    font-size: 15px;
-    box-shadow: 5px 5px 20px;
-  }
-}
+
 .generalInfo {
   text-align: center;
   margin-top: 30px;
 }
-@media (max-width: 1000px) {
-  .generalInfo {
-    text-align: center;
-    margin-top: 0px;
-    font-size: 30px;
-  }
-}
+
 .courseOutline {
   text-align: center;
   margin-top: 30px;
 }
-@media (max-width: 1000px) {
-  .courseOutline {
-    text-align: center;
-    margin-top: 0px;
-    font-size: 30px;
-    margin-right: 30px;
-  }
+.data {
+  font-size: 130px;
 }
+
 .planUL {
   text-align: left;
   line-height: 1.6;
   margin-top: 60px;
 }
-@media (max-width: 1000px) {
-  .planUL {
-    text-align: left;
-    line-height: 1.4;
-    margin-top: 10px;
-  }
-}
+
 .marginPlan {
   margin: 0px 40px;
 }
-@media (max-width: 1000px) {
-  .marginPlan {
-    margin: 0px;
-  }
-}
+
 .plan p {
   line-height: 1.6;
-}
-@media (max-width: 1000px) {
-  .plan p {
-    line-height: 1.6;
-  }
 }
 
 .tables {
@@ -187,42 +102,15 @@
   font-size: 20px;
   box-shadow: 5px 5px 20px;
 }
-@media (max-width: 1000px) {
-  .tables {
-    flex-direction: column;
-    border: none;
-    text-align: center;
-    margin: 25px 50px;
-    padding: 30px;
-    height: 550px;
-    width: 300px;
-    border-radius: 40px;
-    font-size: 15px;
-    box-shadow: 5px 5px 20px;
-  }
-}
+
 .tuitionAndDates {
   font-size: 50px;
 }
-@media (max-width: 1000px) {
-  .tuitionAndDates {
-    font-size: 30px;
-  }
-}
-@media (max-width: 1000px) {
-  .tables h4 {
-    font-size: 20px;
-  }
-}
+
 .teacher {
   margin-top: 40px;
 }
-@media (max-width: 1000px) {
-  .teacher {
-    margin: 40px 60px 0;
-    font-size: 20px;
-  }
-}
+
 .teacherCard {
   text-align: center;
   border: none;
@@ -241,34 +129,118 @@
 
   color: rgb(255, 153, 37);
 }
-@media (max-width: 1000px) {
-  .teacherCard {
-    text-align: center;
-    border: none;
-    width: 450px;
-    margin: 30px;
-    background: cyan;
-    border-radius: 40px;
-    height: 550px;
-    padding: 30px 80px;
-    box-shadow: 5px 5px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+#mernIcon {
+  margin-right: 300px;
 }
+
 .teacherImg {
   margin: 0px;
   height: 200px;
   width: 200px;
   border-radius: 50%;
 }
-@media (max-width: 1000px) {
+@media (max-width: 480px) {
+  .materialInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #img {
+    display: none;
+  }
+  #backGroundImgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 2400px;
+    border: none;
+
+    width: 100%;
+
+    border-radius: 0;
+    margin: 0;
+    box-shadow: 0px 0px 0px;
+  }
+  #mernIcon {
+    margin-right: 0;
+  }
+
+  .tables {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+
+    border: none;
+    margin: 0;
+    padding: 0px;
+
+    width: 90%;
+    border-radius: 0;
+    font-size: 12px;
+    margin: 20px 0;
+  }
   .teacherImg {
     margin: 0px;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
+  }
+  .teacher h2 {
+    font-size: 14px;
+  }
+  .teacherCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: black 5px 5px 20px;
+
+    padding: 0 20px;
+
+    width: 90%;
+    border-radius: 0;
+    font-size: 12px;
+    margin: 20px 0;
+  }
+  .tuitionAndDates {
+    font-size: 40px;
+  }
+  .topColor {
+    padding-top: 80px;
+    height: 600px;
+  }
+
+  .plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+    height: 560px;
+
+    border: none;
+    margin: 20px 0;
+    padding: 0px 20px 20px;
+
+    width: 90%;
+    border-radius: 0;
+    font-size: 12px;
+  }
+  .planFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .textColor {
+    font-size: 60px;
+  }
+  .data {
+    font-size: 60px;
   }
 }

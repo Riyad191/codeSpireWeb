@@ -107,10 +107,11 @@
   color: rgb(255, 153, 37);
 }
 
-.lilMap {
+iframe {
   margin-bottom: 125px;
   width: 500px;
   height: 270px;
+  border: solid red px;
 }
 
 .contactsBtn {
@@ -210,9 +211,10 @@
     width: 90%;
     border-radius: 0;
   }
-  .lilMap {
-    margin-bottom: 0;
-    width: 100%;
-    height: 100%;
+  iframe {
+    margin-bottom: 125px;
+    width: 260px;
+    height: 150px;
+    border: solid red px;
   }
 }

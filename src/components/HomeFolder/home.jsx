@@ -123,9 +123,9 @@ export class home extends Component {
                 </Link>
               </div>
             </div>
-            <div className="best">Best coding Boot Camp</div>
 
             <div className="homeImg">
+              <div className="best">Best coding Boot Camp</div>
               <img
                 src="https://coconutcreatives.co.uk/wp-content/uploads/2018/05/Strategy.png"
                 alt=""

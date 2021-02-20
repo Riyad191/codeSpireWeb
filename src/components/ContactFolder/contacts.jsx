@@ -62,14 +62,7 @@ export class contacts extends Component {
             {/* ----------------------------------------------------------- */}
             <div className="formLineFineUs">
               <div className="contactsForm">
-                <p
-                  style={{
-                    fontSize: 40,
-                    color: "rgb(255, 153, 37)",
-                  }}
-                >
-                  Fill out the form
-                </p>
+                <p className="Fill-out-the-form">Fill out the form</p>
                 <form onSubmit={this.submitHandler}>
                   <div>
                     <input
@@ -105,16 +98,15 @@ export class contacts extends Component {
               <div className="secondryLine"></div>
               <div className="map">
                 <p className="findUs">Find Us</p>
-                <div className="lilMap">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.5538534039592!2d-122.26766478449646!3d47.47912287917634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549042de7d1d8217%3A0xcf5787cf47f64b38!2s13765%2056th%20Ave%20S%2C%20Tukwila%2C%20WA%2098168!5e0!3m2!1sen!2sus!4v1609785830612!5m2!1sen!2sus"
-                    frameborder="0"
-                    style={{ border: 0 }}
-                    allowfullscreen=""
-                    aria-hidden="false"
-                    tabindex="0"
-                  ></iframe>
-                </div>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.5538534039592!2d-122.26766478449646!3d47.47912287917634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549042de7d1d8217%3A0xcf5787cf47f64b38!2s13765%2056th%20Ave%20S%2C%20Tukwila%2C%20WA%2098168!5e0!3m2!1sen!2sus!4v1609785830612!5m2!1sen!2sus"
+                  frameborder="0"
+                  style={{ border: 0 }}
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabindex="0"
+                ></iframe>
               </div>
             </div>
           </div>

@@ -386,8 +386,13 @@
     margin-right: 60px;
   }
   .homeImg img {
-    height: 200px;
+    height: 250px;
   }
+
+  .homeImg {
+    text-align: center;
+  }
+
   .frontTitle2 {
     display: flex;
     justify-content: space-evenly;

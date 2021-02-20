@@ -123,6 +123,7 @@ export class home extends Component {
                 </Link>
               </div>
             </div>
+            <div className="best">Best coding Boot Camp</div>
 
             <div className="homeImg">
               <img

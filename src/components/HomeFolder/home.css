@@ -371,8 +371,20 @@
   outline-offset: 5px;
   text-decoration: none;
 }
+.homeImg img {
+  height: 800px;
+}
+.best {
+  color: rgb(255, 153, 0);
+  font-size: 90px;
+}
 
-@media (max-width: 1080px) {
+@media (max-width: 480px) {
+  .best {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
   .logoBackground {
     height: 110px;
   }
@@ -397,7 +409,7 @@
   .gradientLine {
     margin-right: 60px;
   }
-  .homeImg {
+  .homeImg img {
     height: 200px;
   }
 

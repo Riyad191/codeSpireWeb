@@ -23,6 +23,7 @@
   background-position: center;
   background-size: cover;
 }
+
 @media (max-width: 420px) {
   .topColorHome {
     height: 645px;
@@ -380,6 +381,16 @@
 }
 
 @media (max-width: 480px) {
+  .topColorHome {
+    /* height: 845px; */
+    /* color: white; */
+    text-align: center;
+    background: url("./img/homeeee.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
   .best {
     margin-top: 20px;
     font-size: 30px;

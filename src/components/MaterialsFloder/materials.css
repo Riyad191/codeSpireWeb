@@ -154,7 +154,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 2400px;
+    height: 2600px;
     border: none;
 
     width: 100%;
@@ -211,7 +211,17 @@
   }
   .topColor {
     padding-top: 80px;
-    height: 600px;
+    height: 640px;
+  }
+  .scrollUp {
+    display: none;
+  }
+  .generalInfo,
+  .courseOutline {
+    font-size: 26px;
+  }
+  .planUL {
+    margin-right: 15px;
   }
 
   .plan {
@@ -220,7 +230,7 @@
     align-items: center;
     flex-direction: column;
     box-shadow: 5px 5px 20px;
-    height: 560px;
+    height: 640px;
 
     border: none;
     margin: 20px 0;
@@ -228,7 +238,7 @@
 
     width: 90%;
     border-radius: 0;
-    font-size: 12px;
+    font-size: 13px;
   }
   .planFlex {
     display: flex;

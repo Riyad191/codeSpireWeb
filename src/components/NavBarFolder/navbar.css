@@ -244,6 +244,10 @@ button:focus {
   padding-left: 8px;
 }
 @media (max-width: 1368px) {
+  .navLogo {
+    margin-bottom: 20px;
+  }
+
   .theNavBar {
     height: 180px;
 

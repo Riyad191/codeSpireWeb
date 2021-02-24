@@ -1,7 +1,52 @@
 import React, { Component } from "react";
 import "./courses.css";
+import axios from "axios";
 
 export class title extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      firstName: "",
+      lastName: "",
+      course: "",
+      phoneNumber: "",
+      emailAddress: "",
+      address: "",
+      city: "",
+    };
+  }
+
+  changeHandler = (e) => {
+    this.setState({
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  submitHandler = (e) => {
+    e.preventDefault();
+    console.log("submitted");
+    const url = "http://localhost:4000/spire/add";
+    const info = {
+      firstName: this.state.firstName,
+      lastName: this.state.lastName,
+      course: this.state.course,
+      phoneNumber: this.state.phoneNumber,
+      emailAddress: this.state.emailAddress,
+      address: this.state.address,
+      city: this.state.city,
+    };
+    const config = {
+      headers: {
+        "content-type": "application/json",
+      },
+    };
+    console.log("Current state check: ", info);
+    axios.post(url, info, config).then((res) => {
+      console.log(res);
+    });
+  };
+
   render() {
     return (
       <div className="theCoursesPage">
@@ -115,12 +160,16 @@ export class title extends Component {
                     placeholder="First Name"
                     className="name"
                     name="firstName"
+                    value={this.state.firstName}
+                    onChange={this.changeHandler}
                   />{" "}
                   <input
                     type="text"
                     placeholder="Last Name"
                     className="name"
                     name="lastName"
+                    value={this.state.lastName}
+                    onChange={this.changeHandler}
                   />
                 </div>
 
@@ -130,6 +179,8 @@ export class title extends Component {
                   placeholder="Course"
                   className="input"
                   name="course"
+                  value={this.state.coures}
+                  onChange={this.changeHandler}
                 />
 
                 <br />
@@ -139,6 +190,8 @@ export class title extends Component {
                   placeholder="Email Address"
                   className="input"
                   name="emailAddress"
+                  value={this.state.emailAddress}
+                  onChange={this.changeHandler}
                 />
                 <br />
                 <br />
@@ -147,6 +200,8 @@ export class title extends Component {
                   placeholder="Phone Number"
                   className="input"
                   name="phoneNumber"
+                  value={this.state.phoneNumber}
+                  onChange={this.changeHandler}
                 />
                 <br />
                 <br />
@@ -155,6 +210,8 @@ export class title extends Component {
                   placeholder="Address"
                   className="input"
                   name="address"
+                  value={this.state.address}
+                  onChange={this.changeHandler}
                 />
 
                 <br />
@@ -164,6 +221,8 @@ export class title extends Component {
                   placeholder="City  State  ZipCode "
                   className="input"
                   name="city"
+                  value={this.state.city}
+                  onChange={this.changeHandler}
                 />
                 <br />
                 <br />
@@ -177,7 +236,6 @@ export class title extends Component {
                   <button type="submit" className="formBtn">
                     Submit
                   </button>
-                  <div></div>
                 </div>
               </form>
             </div>

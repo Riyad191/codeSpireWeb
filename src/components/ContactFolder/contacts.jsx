@@ -1,7 +1,43 @@
 import React, { Component } from "react";
 import "./contact.css";
+import axios from "axios";
 
 export class contacts extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      fullName: "",
+      email: "",
+      massage: "",
+    };
+  }
+
+  changeHandler = (e) => {
+    this.setState({
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  submitHandler = (e) => {
+    e.preventDefault();
+
+    const url = "http://localhost:4000/spire/contacts";
+    const info = {
+      fullName: this.state.fullName,
+      email: this.state.email,
+      message: this.state.message,
+    };
+    const config = {
+      headers: {
+        "content-type": "application/json",
+      },
+    };
+
+    axios.post(url, info, config).then((res) => {
+      console.log(res);
+    });
+  };
+
   render() {
     return (
       <div>
@@ -63,6 +99,7 @@ export class contacts extends Component {
             <div className="formLineFineUs">
               <div className="contactsForm">
                 <p className="Fill-out-the-form">Fill out the form</p>
+
                 <form onSubmit={this.submitHandler}>
                   <div>
                     <input
@@ -70,6 +107,8 @@ export class contacts extends Component {
                       placeholder="Full Name"
                       className="phoneInput"
                       name="fullName"
+                      value={this.state.fullName}
+                      onChange={this.changeHandler}
                     />{" "}
                   </div>
 
@@ -78,6 +117,8 @@ export class contacts extends Component {
                     placeholder="Email"
                     className="emailInput"
                     name="email"
+                    value={this.state.email}
+                    onChange={this.changeHandler}
                   />
                   <br />
 
@@ -86,6 +127,8 @@ export class contacts extends Component {
                     type="text"
                     className="messageInput"
                     name="message"
+                    value={this.state.message}
+                    onChange={this.changeHandler}
                   ></textarea>
 
                   <div>

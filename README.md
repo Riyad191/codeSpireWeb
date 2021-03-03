@@ -1,9 +1,5 @@
 # CodeSpire
-
- I built this project as my final project when I took MERN fullstack in
- a bootcamp, it is a bootcamp project idea that teaches four materials
- MENR fullstack, Java, Python and Data Analytics. I used the fullstack
- MENR tools to build CodeSpire project from back to front.
+This project was my final project when I was taking MERN fullstack course in a bootcamp, the project is a bootcamp website that has four different courses MENR fullstack, Java, Python and Data Analytics. I used the fullstack MENR (MongoDB, Express, Node.js, React) tools to build CodeSpire project from back to front.
           
           
  

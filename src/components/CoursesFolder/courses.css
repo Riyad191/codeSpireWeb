@@ -134,6 +134,7 @@
   background: white;
   border-radius: 30px;
 }
+
 @media (max-width: 480px) {
   .theCoursesPage .gradientLine {
     display: flex;
@@ -228,6 +229,222 @@
     width: 90%;
     border-radius: 0;
     font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+  }
+}
+
+@media (max-width: 980px) {
+  .theCoursesPage .gradientLine {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    flex-direction: column;
+  }
+  .nameFlex {
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    align-items: center;
+    flex-direction: column;
+    /* border: solid 1px red; */
+  }
+  .nameFlex input {
+    width: 400px;
+    height: 40px;
+  }
+  .formBtn {
+    border-radius: 20px;
+    font-size: 15px;
+
+    padding: 7px;
+    width: 120px;
+  }
+
+  .name {
+    height: 30px;
+    border-radius: 5px;
+    width: 230px;
+  }
+
+  .input {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .coursesPage {
+    border-radius: 40px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    box-shadow: 0px 0px 0px;
+  }
+
+  .btn {
+    padding: 10px 14px;
+    background: red;
+    border-radius: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .ourCourses {
+    font-size: 70px;
+  }
+
+  .material {
+    border: none;
+    height: 420px;
+    padding: 0 20px 30px;
+    margin: 20px 0;
+
+    width: 70%;
+    border-radius: 0;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+  }
+
+  .materials {
+    flex-direction: column;
+  }
+  #materialInfo {
+    height: 120px;
+    margin: 0;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .form {
+    border: none;
+    height: 720px;
+    padding: 0 20px 30px;
+    margin: 20px 0;
+
+    width: 70%;
+    border-radius: 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+  }
+}
+
+@media (max-width: 1420px) and (min-width: 980px) {
+  .theCoursesPage .gradientLine {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+    /* flex-direction: column; */
+  }
+  .nameFlex {
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    align-items: center;
+
+    flex-direction: column;
+    /* border: solid 1px red; */
+  }
+  .nameFlex input {
+    width: 550px;
+    height: 40px;
+  }
+  .formBtn {
+    border-radius: 20px;
+    font-size: 15px;
+
+    padding: 7px;
+    width: 120px;
+  }
+
+  .name {
+    height: 30px;
+    border-radius: 5px;
+    width: 230px;
+  }
+
+  .input {
+    width: 550px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .coursesPage {
+    border-radius: 40px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    box-shadow: 0px 0px 0px;
+  }
+
+  .btn {
+    padding: 10px 14px;
+    background: red;
+    border-radius: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .ourCourses {
+    font-size: 70px;
+  }
+
+  .material {
+    border: none;
+    height: 420px;
+    padding: 0 20px 30px;
+    margin: 20px 0;
+
+    width: 70%;
+    border-radius: 0;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+  }
+
+  .materials {
+    flex-direction: column;
+  }
+  #materialInfo {
+    height: 120px;
+    margin: 0;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .form {
+    border: none;
+    height: 720px;
+    padding: 0 20px 30px;
+    margin: 20px 0;
+
+    width: 70%;
+    border-radius: 0;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;

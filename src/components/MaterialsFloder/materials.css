@@ -140,120 +140,6 @@
   border-radius: 50%;
 }
 
-@media (max-width: 480px) {
-  .materialInfo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  #img {
-    display: none;
-  }
-  #backGroundImgs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 2600px;
-    border: none;
-
-    width: 100%;
-
-    border-radius: 0;
-    margin: 0;
-    box-shadow: 0px 0px 0px;
-  }
-  #mernIcon {
-    margin-right: 0;
-  }
-
-  .tables {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 5px 5px 20px;
-
-    border: none;
-    margin: 0;
-    padding: 0px;
-
-    width: 90%;
-    border-radius: 0;
-    font-size: 12px;
-    margin: 20px 0;
-  }
-  .teacherImg {
-    margin: 0px;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-  }
-  .teacher h2 {
-    font-size: 14px;
-  }
-  .teacherCard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: black 5px 5px 20px;
-    padding: 0 20px;
-    width: 90%;
-    border-radius: 0;
-    font-size: 12px;
-    margin: 20px 0;
-  }
-  .tuitionAndDates {
-    font-size: 40px;
-  }
-  .topColor {
-    padding-top: 80px;
-    height: 640px;
-  }
-  .scrollUp {
-    display: none;
-  }
-  .generalInfo,
-  .courseOutline {
-    font-size: 26px;
-  }
-  .planUL {
-    margin-right: 15px;
-  }
-
-  .plan {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 5px 5px 20px;
-    height: 640px;
-
-    border: none;
-    margin: 20px 0;
-    padding: 0px 20px 20px;
-
-    width: 90%;
-    border-radius: 0;
-    font-size: 13px;
-  }
-  .planFlex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-  }
-  .textColor {
-    font-size: 60px;
-  }
-  .data {
-    font-size: 60px;
-  }
-}
-
 @media (max-width: 1400px) {
   .materialInfo {
     display: flex;
@@ -319,6 +205,120 @@
     width: 90%;
     border-radius: 0;
     font-size: 18px;
+    margin: 20px 0;
+  }
+  .tuitionAndDates {
+    font-size: 40px;
+  }
+  .topColor {
+    padding-top: 80px;
+    height: 640px;
+  }
+  .scrollUp {
+    display: none;
+  }
+  .generalInfo,
+  .courseOutline {
+    font-size: 26px;
+  }
+  .planUL {
+    margin-right: 15px;
+  }
+
+  .plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+    height: 640px;
+
+    border: none;
+    margin: 20px 0;
+    padding: 0px 20px 20px;
+
+    width: 90%;
+    border-radius: 0;
+    font-size: 13px;
+  }
+  .planFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .textColor {
+    font-size: 60px;
+  }
+  .data {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .materialInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #img {
+    display: none;
+  }
+  #backGroundImgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 2600px;
+    border: none;
+
+    width: 100%;
+
+    border-radius: 0;
+    margin: 0;
+    box-shadow: 0px 0px 0px;
+  }
+  #mernIcon {
+    margin-right: 0;
+  }
+
+  .tables {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+
+    border: none;
+    margin: 0;
+    padding: 0px;
+
+    width: 90%;
+    border-radius: 0;
+    font-size: 12px;
+    margin: 20px 0;
+  }
+  .teacherImg {
+    margin: 0px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .teacher h2 {
+    font-size: 14px;
+  }
+  .teacherCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: black 5px 5px 20px;
+    padding: 0 20px;
+    width: 90%;
+    border-radius: 0;
+    font-size: 12px;
     margin: 20px 0;
   }
   .tuitionAndDates {
